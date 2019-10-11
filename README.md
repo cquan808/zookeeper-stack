@@ -2,9 +2,9 @@
 
 Update the file `kafka/config/server.properties` and make changes to the kafka/zookeeper servers as follows:
 
-kafka server: `listeners = PLAINTEXT://<kafka-server-ip>:9092`
+`listeners = PLAINTEXT://<kafka-server-ip>:9092`
 
-zookeeper server: `zookeeper.connect=<zookeeper-server-ip>:2181`
+`zookeeper.connect=<zookeeper-server-ip>:2181`
 
 ## Deploy Stack:
 
