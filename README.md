@@ -8,4 +8,4 @@ Update the file `kafka/config/server.properties` and make changes to the kafka/z
 
 ## Deploy Stack:
 
-sudo docker stack deploy -c docker-compose.yml zookeeper-stack
+`sudo docker stack deploy -c docker-compose.yml zookeeper-stack`
