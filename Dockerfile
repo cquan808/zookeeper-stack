@@ -14,5 +14,3 @@ WORKDIR /kafka
 EXPOSE 2181
 
 CMD [ "kafka/bin/zookeeper-server-start.sh", "kafka/config/zookeeper.properties"]
-#RUN touch /var/log/alchemy.log
-#CMD ["tail", "-f", "/var/log/alchemy.log"]

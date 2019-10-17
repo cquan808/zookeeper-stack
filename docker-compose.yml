@@ -6,7 +6,7 @@ networks:
 
 services:
   zoo1:
-    #image: zookeeper
+    #image: gcr.io/abra-stock/zookeeper-stack:2.3.0
     image: cquan808/zookeeper-stack:2.3.0
     hostname: zoo1
     ports:
