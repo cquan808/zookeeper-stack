@@ -12,7 +12,7 @@ Update the file `kafka/config/server.properties` and make changes to the kafka/z
 
 # Kafka
 
-Set Environment:
+Set environment for kafka:
 
 `export KAFKA_OPTS="-Djava.security.auth.login.config=/home/kafka/kafka/config/kafka_server_jaas.conf"`
 
